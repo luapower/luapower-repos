@@ -1,0 +1,7 @@
+*
+!/.multigit/
+!/.multigit/multigit.exclude
+!/.multigit/*.origin
+!/.multigit/*.baseurl
+!/.multigit/*.release
+/.multigit/multigit.origin
