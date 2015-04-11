@@ -1,9 +1,19 @@
-# increment the current tag (assuming it's a number) and push tags
-# TODO: make this more robust by checking and incrementing the first number _inside any string_.
-local tag="$(git describe --tags --abbrev=0 2>/dev/null)"
-[ "$tag" ] || tag="0"
-local n=$((tag+0))
-[ "$n" == "$tag" ] || usage "Tag '$tag' is not a number."
-tag=$((tag+1))
-git tag -f "$tag"
-git push -f --tags
+#!/bin/bash
+# increment the first number from inside current tag (if any) and push tags
+tag="$(git describe --tags --abbrev=0 2>/dev/null)"
+if [[ $tag =~ ([^0-9]*)([0-9]+)(.*) ]]; then
+	s1="${BASH_REMATCH[1]}"
+	n="${BASH_REMATCH[2]}"
+	s2="${BASH_REMATCH[3]}"
+else
+	s1="r"
+	n="0"
+	s2=""
+fi
+tag1="$s1$((n+1))$s2"
+echo "Bumping version: $tag -> $tag1"
+echo "Press any key to continue, Ctrl+C to quit."
+read
+
+git tag "$tag"
+git push --tags
