@@ -6,7 +6,7 @@
 check() {
 	(
 	echo $1
-	cd ../bin/$1
+	cd bin/$1
 	for f in *.so; do
 		s="$(objdump -T "$f" | grep -P '\*UND\*\s+[0-9a-f]+\s+[^\s]+\s+[^\s]+$' | grep -v GLIBC)"
 		[ "$s" ] && { echo "$f"; echo "$s"; }

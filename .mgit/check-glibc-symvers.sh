@@ -5,7 +5,7 @@
 
 check() {
 	echo $1
-	(cd ../bin/$1
+	(cd bin/$1
 	for f in *.so luajit-bin; do
 		s="$(objdump -T $f | grep GLIBC_ | grep -v 'GLIBC_2\.[0-7][\ \.]')"
 		[ "$s" ] && printf "%-20s %s\n" "$f" "$s"
