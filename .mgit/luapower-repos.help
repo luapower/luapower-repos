@@ -6,7 +6,8 @@
    REPO|--all clear-history     clear all the history of the current branch (!)
    REPO|--all update-perms      git-chmod +x all .sh files in repo
 
-   build REPO1,...|--all [platform]   build packages in the right order
+   build REPO [platform]                  build a single package
+   build-all REPO1,...|--all [platform]   build many packages in the right order
    check-glibc-symvers          report glibc symbol versions > GLIBC 2.7
    check-osx-rpath              check install_name on osx dylibs
    check-other-symvers          list non-glibc symbol versions

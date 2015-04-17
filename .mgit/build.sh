@@ -1,36 +1,14 @@
 #!/bin/bash
-# build packages and their dependencies in the right order.
-# needs the `luapower` package to get the build order.
+# build a package on the current platform (or on a specified platform).
 
-packages="$1"  # comma separated
+package="$1"
 platform="$2"
 
-[ "$packages" ] || {
-	echo "Usage: mgit build REPO,...|--all [platform]"
-	exit 1
-}
+die() { echo "ERROR: $@" >&2; exit 1; }
+usage() { echo "Usage: mgit build REPO [platform]"; exit 0; }
+[ "$package" ] || usage
+[ "$platform" ] || platform="$(.mgit/platform.sh)" || die "Unknown platform $platform"
+script="csrc/$package/build-$platform.sh"
+[ -x "$script" ] || die "Build script not found: $script"
 
-[ -f "luapower" ] || {
-	echo "luapower package is needed to get the build order. To get it, run:"
-	echo
-    echo "   mgit clone luapower glue lfs luajit luastate pp tuple libgit2 zlib"
-    echo
-	exit 1
-}
-
-[ "$platform" ] || platform="$(./luapower platform)" || exit 1
-packages="$(./luapower build-order $packages $platform)"
-
-echo "Will build: ${packages//$'\n'/, }."
-echo "Press any key to continue, Ctrl+C to quit."
-read
-
-for pkg in $packages do
-    echo
-    echo "-----------------------------------------------------------"
-    echo
-    echo "*** Building $pkg for $platform ***"
-    echo
-    csrc_dir="$(./luapower csrc-dir $pkg)"
-    (cd "$csrc_dir" && ./build-$platform.sh)
-done
+cd csrc/$package && ./build-$platform.sh
