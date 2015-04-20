@@ -19,11 +19,12 @@ tagline: package categories
 	* [cbframe]
 	* [ffi_reflect]
 * Basic OS
+	* [lfs]
+	* [pthread]
+	* [luastate]
 	* [lanes]
 	* [socket]
 	* [socketloop]
-	* [lfs]
-	* [luastate]
 	* [stdc]
 * Hashing & Compression
 	* [md5]
@@ -52,6 +53,7 @@ tagline: package categories
 	* [affine2d]
 	* [clipper]
 	* [cairo]
+	* [freetype]
 	* [openvg]
 	* [svg_parser]
 	* [hpdf]
@@ -62,8 +64,6 @@ tagline: package categories
 	* [harfbuzz]
 	* [hunspell]
 	* [fribidi]
-* Text Rasterization
-	* [freetype]
 * 3D Graphics
 	* [opengl]
 	* [sg]
@@ -77,7 +77,7 @@ tagline: package categories
 	* [libpng]
 	* [libexif]
 	* [blur]
-* GUI
+* GUIs
 	* [nw]
 	* [cplayer]
 	* [box2d]
@@ -92,8 +92,13 @@ tagline: package categories
 	* [libvlc]
 * Math
 	* [eq]
-* Support Packages
+* Support Libs
+	* [libstdcxx]
+	* [pixman]
+* Dev Tools
 	* [bundle]
 	* [wluajit]
+	* [luapower]
+	* [unit]
 	* [lua-headers]
-	* [pixman]
+   * [libgit2]
