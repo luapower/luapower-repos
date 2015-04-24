@@ -13,8 +13,8 @@ platform="$2"
 [ -f "luapower" ] || {
 	echo "luapower package is needed to get the build order. To get it, run:"
 	echo
-    echo "   mgit clone luapower glue lfs luajit tuple libgit2 zlib"
-    echo
+	echo "   mgit clone luapower glue lfs luajit tuple"
+	echo
 	exit 1
 }
 

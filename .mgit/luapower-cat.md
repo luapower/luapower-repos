@@ -101,4 +101,3 @@ tagline: package categories
 	* [luapower]
 	* [unit]
 	* [lua-headers]
-   * [libgit2]
