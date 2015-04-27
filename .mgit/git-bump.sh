@@ -15,5 +15,5 @@ echo "Bumping version: $tag -> $tag1"
 echo "Press any key to continue, Ctrl+C to quit."
 read
 
-git tag "$tag"
+git tag "$tag1"
 git push --tags
