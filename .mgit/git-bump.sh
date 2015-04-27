@@ -1,5 +1,6 @@
 #!/bin/bash
 # increment the first number from inside current tag (if any) and push tags
+
 tag="$(git describe --tags --abbrev=0 2>/dev/null)"
 if [[ $tag =~ ([^0-9]*)([0-9]+)(.*) ]]; then
 	s1="${BASH_REMATCH[1]}"
