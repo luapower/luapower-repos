@@ -11,6 +11,6 @@ usage() { echo "Usage: mgit build REPO [platform]"; exit 0; }
 [ "$platform" ] || platform="$(.mgit/platform.sh)" || die "Unknown platform $platform"
 
 script="csrc/$package/build-$platform.sh"
-[ -x "$script" ] || die "Build script not found: $script"
+[ -f "$script" ] || die "Build script not found: $script"
 
 cd csrc/$package && ./build-$platform.sh
