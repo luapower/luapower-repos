@@ -48,6 +48,7 @@ tagline: package categories
 * Platform APIs
 	* [winapi]
 	* [objc]
+	* [syscall]
 * 2D Graphics
 	* [path2d]
 	* [affine2d]
