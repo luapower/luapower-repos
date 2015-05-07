@@ -7,8 +7,10 @@
    REPO|--all update-perms      git-chmod +x all .sh files in repo
 
    build REPO [platform]                  build a single package
-   build-all REPO1,...|--all [platform]   build many packages in the right order
+   build-all REPO1,...|--all [platform]   build packages in the right order
+   syms [opts...] LIB1 ...      report symbols and dependent libraries
    check-glibc-symvers          report glibc symbol versions > GLIBC 2.7
    check-osx-rpath              check install_name on osx dylibs
    check-other-symvers          list non-glibc symbol versions
-   platform                     detect current platform
+   precompile FILE1.h ...       precompile headers into Lua cdef files
+   platform [-o|-a]             detect current platform, OS or architecture
