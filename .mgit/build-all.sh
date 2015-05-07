@@ -2,7 +2,7 @@
 # build packages and their dependencies in the right order.
 # needs the `luapower` package to get the build order.
 
-packages="$1"  # comma separated
+packages="$1"  # comma separated without spaces
 platform="$2"
 
 [ "$packages" ] || {
@@ -31,6 +31,5 @@ for pkg in $packages do
     echo
     echo "*** Building $pkg for $platform ***"
     echo
-    csrc_dir="$(./luapower csrc-dir $pkg)"
-    (cd "$csrc_dir" && ./build-$platform.sh)
+    (cd csrc/$pkg && ./build-$platform.sh)
 done
