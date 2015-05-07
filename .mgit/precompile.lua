@@ -17,11 +17,13 @@ for s in io.stdin:lines() do
 
 		local d,v = s:match'^#define%s+([_%w]+)%s+(.*)'
 		if d then
-			if not def[f0] then
-				table.insert(df, 'enum {')
+			if v ~= '' and not d:find'^_(.-)_H_$' then
+				if not def[f0] then
+					table.insert(df, 'enum {')
+				end
+				table.insert(df, string.format('\t%-20s = %s,', d, v))
+				def[f0] = d
 			end
-			table.insert(df, string.format('\t%-20s = %s,', d, v))
-			def[f0] = d
 		else
 			if def[f0] then
 				table.insert(df, '};')

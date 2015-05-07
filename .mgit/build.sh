@@ -5,7 +5,7 @@ package="$1"
 platform="$2"
 
 die() { echo "ERROR: $@" >&2; exit 1; }
-usage() { echo "Usage: mgit build REPO [platform]"; exit 0; }
+usage() { echo "USAGE: mgit build REPO [platform]"; exit; }
 
 [ "$package" ] || usage
 [ "$platform" ] || platform="$(.mgit/platform.sh)" || die "Unknown platform $platform"

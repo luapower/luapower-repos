@@ -1,7 +1,10 @@
 #!/bin/bash
 # preprocess multiple C header files into a single Lua file
 
-usage() { echo "Usage: CFLAGS=... mgit preprocess [-m32] [-posix] FILE1.h ..."; exit 1; }
+usage() {
+	echo "USAGE: CFLAGS=... mgit precompile [-m32] [-posix] FILE1.h ..."
+	exit 1
+}
 
 [ "x$1" = "x-m32" ] && { CFLAGS="$CFLAGS -m32"; shift; }
 [ "x$1" = "x-posix" ] && { CFLAGS="$CFLAGS -D_POSIX_C_SOURCE=200112L"; shift; }
@@ -25,4 +28,4 @@ inc_headers "$@" | gcc $CFLAGS -E -dD -xc - \
 	| grep -v '^$' \
 	| grep -v '#undef' \
 	| sed 's/__asm\(.*\)//g' \
-	| "./luajit" .mgit/preprocess.lua
+	| "./luajit" .mgit/precompile.lua

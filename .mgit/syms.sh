@@ -1,5 +1,5 @@
 #!/bin/bash
-# dump exported symbols from dynamic libraries.
+# dump symbols from dynamic libraries
 
 LANG=C # for sort
 
@@ -16,8 +16,6 @@ DEF=d
 usage() {
 	echo
 	echo " USAGE: mgit syms [-d|-u|-l|-lu|-f] LIBNAME1|LIBFILE1$SUFFIX ..."
-	echo
-	echo " Dump symbols from dynamic libraries."
 	echo
 	echo "   -d       dump defined symbols (default)"
 	echo "   -u       dump undefined symbols"

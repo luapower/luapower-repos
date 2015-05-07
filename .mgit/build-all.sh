@@ -6,12 +6,14 @@ packages="$1"  # comma separated without spaces
 platform="$2"
 
 [ "$packages" ] || {
-	echo "Usage: mgit build-all REPO,...|--all [platform]"
+	echo "USAGE: mgit build-all REPO,...|--all [platform]"
 	exit 1
 }
 
 [ -f "luapower" ] || {
-	echo "luapower package is needed to get the build order. To get it, run:"
+	echo
+	echo "ERROR: luapower package is needed to get the build order."
+	echo "To get it, run:"
 	echo
 	echo "   mgit clone luapower glue lfs luajit tuple"
 	echo
