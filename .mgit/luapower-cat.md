@@ -37,7 +37,7 @@ tagline: package categories
 	* [libmariadb]
 	* [libmysql]
 	* [fbclient]
-* Portable OS APIs
+* Portable OS
 	* [lfs]
 	* [socket]
 	* [socketloop]
@@ -45,7 +45,7 @@ tagline: package categories
 	* [luastate]
 	* [pthread]
 	* [stdc]
-* Native OS APIs
+* Native OS
 	* [winapi]
 	* [objc]
 	* [syscall]
