@@ -18,14 +18,6 @@ tagline: package categories
 	* [dynasm]
 	* [cbframe]
 	* [ffi_reflect]
-* Basic OS
-	* [lfs]
-	* [pthread]
-	* [luastate]
-	* [lanes]
-	* [socket]
-	* [socketloop]
-	* [stdc]
 * Hashing & Compression
 	* [md5]
 	* [sha2]
@@ -45,7 +37,15 @@ tagline: package categories
 	* [libmariadb]
 	* [libmysql]
 	* [fbclient]
-* Platform APIs
+* Portable OS APIs
+	* [lfs]
+	* [socket]
+	* [socketloop]
+	* [lanes]
+	* [luastate]
+	* [pthread]
+	* [stdc]
+* Native OS APIs
 	* [winapi]
 	* [objc]
 	* [syscall]
