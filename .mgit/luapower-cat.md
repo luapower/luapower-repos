@@ -44,6 +44,7 @@ tagline: package categories
 	* [lanes]
 	* [luastate]
 	* [pthread]
+	* [time]
 	* [stdc]
 * Native OS
 	* [winapi]
