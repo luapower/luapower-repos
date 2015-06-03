@@ -4,22 +4,23 @@ tagline: package categories
 
 * Runtimes
 	* [luajit]
-* Language extensions
-	* [dynasm]
+* Native Code Generation
 	* [terra]
-* Basic tools
+	* [dynasm]
+* DSLs
+	* [lpeg]
+* Basic Tools
 	* [glue]
 	* [tuple]
 	* [coro]
 	* [pp]
 	* [oo]
-	* [struct]
-	* [lpeg]
 	* [vararg]
 	* [dlist]
 * FFI Tools
 	* [cbframe]
 	* [ffi_reflect]
+	* [struct]
 * Hashing & Compression
 	* [md5]
 	* [sha2]
@@ -62,13 +63,14 @@ tagline: package categories
 	* [openvg]
 	* [svg_parser]
 	* [hpdf]
-* Text Processing
+* Unicode
 	* [utf8]
 	* [ucdn]
 	* [libunibreak]
 	* [harfbuzz]
-	* [hunspell]
 	* [fribidi]
+* Spell Checking
+	* [hunspell]
 * 3D Graphics
 	* [opengl]
 	* [sg]
