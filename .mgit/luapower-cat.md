@@ -54,6 +54,7 @@ tagline: package categories
 	* [winapi]
 	* [objc]
 	* [syscall]
+	* [xcb]
 * 2D Graphics
 	* [path2d]
 	* [affine2d]
