@@ -7,8 +7,6 @@ tagline: package categories
 * Native Code Generation
 	* [terra]
 	* [dynasm]
-* DSLs
-	* [lpeg]
 * Basic Tools
 	* [glue]
 	* [tuple]
@@ -21,6 +19,8 @@ tagline: package categories
 	* [cbframe]
 	* [ffi_reflect]
 	* [struct]
+* Parsing
+	* [lpeg]
 * Hashing & Compression
 	* [md5]
 	* [sha2]
