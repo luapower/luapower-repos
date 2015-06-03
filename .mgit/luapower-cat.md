@@ -4,6 +4,9 @@ tagline: package categories
 
 * Runtimes
 	* [luajit]
+* Language extensions
+	* [dynasm]
+	* [terra]
 * Basic tools
 	* [glue]
 	* [tuple]
@@ -14,8 +17,7 @@ tagline: package categories
 	* [lpeg]
 	* [vararg]
 	* [dlist]
-* FFI tools
-	* [dynasm]
+* FFI Tools
 	* [cbframe]
 	* [ffi_reflect]
 * Hashing & Compression
@@ -37,7 +39,7 @@ tagline: package categories
 	* [libmariadb]
 	* [libmysql]
 	* [fbclient]
-* Portable OS
+* Portable OS APIs
 	* [lfs]
 	* [socket]
 	* [socketloop]
@@ -47,7 +49,7 @@ tagline: package categories
 	* [thread]
 	* [time]
 	* [stdc]
-* Native OS
+* Native OS APIs
 	* [winapi]
 	* [objc]
 	* [syscall]
@@ -98,6 +100,7 @@ tagline: package categories
 * Support Libs
 	* [libstdcxx]
 	* [pixman]
+	* [llvm]
 * Dev Tools
 	* [bundle]
 	* [wluajit]
