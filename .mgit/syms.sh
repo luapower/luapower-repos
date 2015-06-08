@@ -58,7 +58,7 @@ clean_libname() {
 
 		# skip Linux implicit deps
 		[ "$s" = "linux-vdso" ] && continue
-		[[ "$s" == *"/lib/ld-linux"* ]] && continue
+		[[ "$s" == *"/ld-linux"* ]] && continue
 		[ "$s" = "linux-gate" ] && continue
 
 		# skip semi-implicit C runtime dep
@@ -136,8 +136,10 @@ syms_f_osx() {
 	done | sort
 }
 syms_one() {
-	local f="$1"
-	[ -f "$f" ] || f="bin/$P/$PREFIX$f$SUFFIX"
+	local fn="$1"
+	local f="$fn"
+	[ -f "$f" ] || f="bin/$P/$PREFIX$fn$SUFFIX"
+	[ -f "$f" ] || f="bin/$P/clib/$fn$SUFFIX"
 	syms_${DEF}_${O} "$f"
 }
 
