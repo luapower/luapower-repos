@@ -7,9 +7,9 @@ P=$(.mgit/platform.sh)
 O=$(.mgit/platform.sh -o)
 [ "$O" ] || exit 1
 
-[ $O = mingw ] && { PREFIX=;    SUFFIX=.dll;   }
-[ $O = linux ] && { PREFIX=lib; SUFFIX=.so;    }
-[ $O = osx   ] && { PREFIX=lib; SUFFIX=.dylib; }
+[ $O = mingw ] && { PREFIX=;    SUFFIX=.dll;   CSUFFIX=.dll; }
+[ $O = linux ] && { PREFIX=lib; SUFFIX=.so;    CSUFFIX=.so; }
+[ $O = osx   ] && { PREFIX=lib; SUFFIX=.dylib; CSUFFIX=.so; }
 
 DEF=d
 
@@ -139,7 +139,7 @@ syms_one() {
 	local fn="$1"
 	local f="$fn"
 	[ -f "$f" ] || f="bin/$P/$PREFIX$fn$SUFFIX"
-	[ -f "$f" ] || f="bin/$P/clib/$fn$SUFFIX"
+	[ -f "$f" ] || f="bin/$P/clib/$fn$CSUFFIX"
 	syms_${DEF}_${O} "$f"
 }
 
