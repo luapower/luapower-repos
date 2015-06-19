@@ -9,12 +9,14 @@ tagline: package categories
 	* [dynasm]
 * Basic Tools
 	* [glue]
-	* [tuple]
 	* [coro]
 	* [pp]
 	* [oo]
 	* [vararg]
+* Data Structures
+	* [tuple]
 	* [dlist]
+	* [ringbuffer]
 * FFI Tools
 	* [cbframe]
 	* [ffi_reflect]
