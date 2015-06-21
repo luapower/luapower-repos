@@ -15,8 +15,9 @@ tagline: package categories
 	* [vararg]
 * Data Structures
 	* [tuple]
-	* [dlist]
 	* [ringbuffer]
+	* [heap]
+	* [dlist]
 * FFI Tools
 	* [cbframe]
 	* [ffi_reflect]
