@@ -16,6 +16,7 @@ tagline: package categories
 * Data Structures
 	* [tuple]
 	* [ringbuffer]
+	* [ringbuffer2]
 	* [heap]
 	* [dlist]
 * FFI Tools
@@ -57,7 +58,7 @@ tagline: package categories
 	* [winapi]
 	* [objc]
 	* [syscall]
-	* [xcb]
+	* [xlib]
 * 2D Graphics
 	* [path2d]
 	* [affine2d]
