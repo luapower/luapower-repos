@@ -16,7 +16,6 @@ tagline: package categories
 * Data Structures
 	* [tuple]
 	* [ringbuffer]
-	* [ringbuffer2]
 	* [heap]
 	* [dlist]
 * FFI Tools
