@@ -46,6 +46,7 @@ tagline: package categories
 * Portable OS APIs
 	* [lfs]
 	* [socket]
+	* [bnet]
 	* [socketloop]
 	* [lanes]
 	* [luastate]
