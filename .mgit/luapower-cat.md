@@ -64,6 +64,7 @@ tagline: package categories
 * Portable OS APIs
 	* [lfs]
 	* [time]
+	* [mmap]
 	* [stdc]
 * Native OS APIs
 	* [winapi]
