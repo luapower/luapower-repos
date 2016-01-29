@@ -25,7 +25,8 @@ tagline: package categories
 * Parsing
 	* [lpeg]
 * Hashing & Compression
-	* [md5], [md4]
+	* [md5]
+	* [md4]
 	* [sha2]
 	* [hmac]
 	* [pmurhash]
