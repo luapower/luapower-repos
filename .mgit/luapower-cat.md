@@ -10,6 +10,7 @@ tagline: package categories
 	* [glue]
 	* [tuple]
 	* [pp]
+	* [oo]
 	* [lpeg]
 	* [coro]
 * Portable OS APIs
@@ -41,8 +42,7 @@ tagline: package categories
 	* [box2d]
 	* [clipper]
 * GUI
-	* [cplayer]
-	* [sg]
+   * [ui]
 	* [codedit]
 * File Formats
 	* [giflib]
@@ -142,3 +142,7 @@ Development Tools
 	* [libvlc]
 	* [libvorbis]
 	* [libpng]
+   * [gfonts]
+   * [imgui]
+   * [imgui_nw_cairo]
+   * [sg]
