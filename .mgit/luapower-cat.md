@@ -48,6 +48,7 @@ tagline: package categories
 * File Formats
 	* [giflib]
 	* [libjpeg]
+	* [libpng]
 	* [bmp]
 	* [libexif]
 * Hashing
@@ -110,6 +111,7 @@ tagline: package categories
 	* [lua-headers]
 	* [shm]
 * Development Tools
+	* [cplayer]
 	* [gfonts]
 	* [hash_benchmark]
    * [unit]
@@ -127,9 +129,3 @@ tagline: package categories
 	* [minizip]
 	* [terra]
 	* [llvm]
-* Pending Inclusion
-	* [libpng]
-   * [imgui]
-   * [imgui_nw_cairo]
-   * [sg]
-	* [cplayer]
