@@ -23,26 +23,26 @@ tagline: package categories
 	* [pthread]
 	* [time]
 	* [rs232]
-* UI
+* Portable UI
    * [ui]
 	* [codedit]
-* Text Rendering
+* Portable Text Rendering
 	* [tr]
    * [freetype]
 	* [harfbuzz]
 	* [fribidi]
 	* [libunibreak]
+* Portable 2D Graphics
+	* [cairo]
+	* [bitmap]
+	* [color]
+	* [boxblur]
 * Native OS APIs
 	* [winapi]
 	* [winapi.wglpanel]
 	* [winapi.cairopanel]
 	* [objc]
 	* [xlib]
-* Portable 2D Graphics
-	* [cairo]
-	* [bitmap]
-	* [color]
-	* [boxblur]
 * 2D Geometry
 	* [path2d]
 	* [affine2d]
