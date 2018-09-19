@@ -48,15 +48,15 @@ tagline: package categories
 	* [affine2d]
 	* [box2d]
 	* [clipper]
-* Unicode
-	* [utf8]
-	* [ucdn]
 * Image Formats
 	* [giflib]
 	* [libjpeg]
 	* [libpng]
 	* [bmp]
 	* [libexif]
+* Unicode
+	* [utf8]
+	* [ucdn]
 * Hashing
 	* [xxhash]
    * [blake2]
