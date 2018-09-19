@@ -23,22 +23,6 @@ tagline: package categories
 	* [pthread]
 	* [time]
 	* [rs232]
-* Native OS APIs
-	* [winapi]
-	* [winapi.wglpanel]
-	* [winapi.cairopanel]
-	* [objc]
-	* [xlib]
-* 2D Graphics
-	* [cairo]
-	* [bitmap]
-	* [color]
-	* [boxblur]
-* 2D Geometry
-	* [path2d]
-	* [affine2d]
-	* [box2d]
-	* [clipper]
 * UI
    * [ui]
 	* [codedit]
@@ -48,6 +32,22 @@ tagline: package categories
 	* [harfbuzz]
 	* [fribidi]
 	* [libunibreak]
+* Native OS APIs
+	* [winapi]
+	* [winapi.wglpanel]
+	* [winapi.cairopanel]
+	* [objc]
+	* [xlib]
+* Portable 2D Graphics
+	* [cairo]
+	* [bitmap]
+	* [color]
+	* [boxblur]
+* 2D Geometry
+	* [path2d]
+	* [affine2d]
+	* [box2d]
+	* [clipper]
 * Unicode
 	* [utf8]
 	* [ucdn]
