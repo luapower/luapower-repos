@@ -8,7 +8,6 @@ tagline: package categories
 	* [bundle]
 * Standard Libraries
 	* [glue]
-	* [tuple]
 	* [pp]
 	* [oo]
 	* [lpeg]
@@ -30,8 +29,6 @@ tagline: package categories
 	* [winapi.cairopanel]
 	* [objc]
 	* [xlib]
-* Databases
-	* [mysql]
 * 2D Graphics
 	* [cairo]
 	* [bitmap]
@@ -42,10 +39,19 @@ tagline: package categories
 	* [affine2d]
 	* [box2d]
 	* [clipper]
-* GUI
+* UI
    * [ui]
 	* [codedit]
-* File Formats
+* Text Rendering
+	* [tr]
+   * [freetype]
+	* [harfbuzz]
+	* [fribidi]
+	* [libunibreak]
+* Unicode
+	* [utf8]
+	* [ucdn]
+* Image Formats
 	* [giflib]
 	* [libjpeg]
 	* [libpng]
@@ -70,27 +76,20 @@ tagline: package categories
 * Networking
 	* [libcurl]
 	* [rsync]
-* Spell Checking
-	* [hunspell]
+* Databases
+	* [mysql]
 * Templating
    * [mustache]
 * Motion
 	* [tweening]
 	* [easing]
+* Spell Checking
+	* [hunspell]
 * Data Structures
 	* [heap]
 	* [dlist]
 	* [lrucache]
 	* [lfrb]
-* Text Layouting
-	* [tr]
-	* [harfbuzz]
-   * [freetype]
-* Unicode
-	* [utf8]
-	* [ucdn]
-	* [libunibreak]
-	* [fribidi]
 * Support APIs
 	* [amoeba]
 	* [eq]
@@ -130,3 +129,4 @@ tagline: package categories
 	* [minizip]
 	* [terra]
 	* [llvm]
+	* [tuple]
