@@ -2,8 +2,9 @@
 tagline: package categories
 ---
 
-* LuaJIT Runtime
+* Runtimes
 	* [luajit]
+	* [terra]
 * Deployment
 	* [bundle]
 * Standard Libraries
@@ -19,6 +20,7 @@ tagline: package categories
 	* [libsoundio]
 	* [videoinput]
 	* [socket]
+	* [luasec]
 	* [socketloop]
 	* [thread]
 	* [pthread]
@@ -128,6 +130,5 @@ tagline: package categories
 	* [ffi_reflect]
 	* [struct]
 	* [minizip]
-	* [terra]
 	* [llvm]
 	* [tuple]
