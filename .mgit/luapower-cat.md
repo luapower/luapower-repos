@@ -90,7 +90,7 @@ tagline: package categories
 	* [hunspell]
 * Data Structures
 	* [heap]
-	* [dlist]
+	* [linkedlist]
 	* [lrucache]
 	* [lfrb]
 * Support APIs
