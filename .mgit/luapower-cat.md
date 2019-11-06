@@ -120,7 +120,7 @@ tagline: package categories
 	* [gfonts]
 	* [hash_benchmark]
 	* [unit]
-* Terra Standard Libraries<sup>New!</sup>
+* Terra Standard Libraries
    * [terra-low]
    * [terra-arrayview]
    * [terra-dynarray]
@@ -133,7 +133,7 @@ tagline: package categories
 	* [terra-bitarray]
 	* [terra-utf8]
 	* [terra-random]
-* Terra Support Libs<sup>New!</sup>
+* Terra Support Libs
 	* [terra-bitmap]
 	* [terra-cairo]
 	* [terra-box2d]
