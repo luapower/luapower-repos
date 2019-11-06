@@ -56,6 +56,7 @@ tagline: package categories
 	* [libexif]
 * Unicode
 	* [utf8]
+	* [utf8quot]
 	* [ucdn]
 * Hashing
 	* [xxhash]
@@ -119,6 +120,24 @@ tagline: package categories
 	* [gfonts]
 	* [hash_benchmark]
 	* [unit]
+* Terra Standard Library<sup>New!</sup>
+   * [terra-low]
+   * [terra-arrayview]
+   * [terra-dynarray]
+	* [terra-hashmap]
+	* [terra-phf]
+	* [terra-linkedlist]
+	* [terra-fixedfreelist]
+	* [terra-arrayfreelist]
+	* [terra-lrucache]
+	* [terra-bitarray]
+	* [terra-utf8]
+	* [terra-random]
+* Terra Support Libraries<sup>New!</sup>
+	* [terra-bitmap]
+	* [terra-cairo]
+	* [terra-box2d]
+	* [terra-boxblur]
 * Package Management
 	* [luapower]
 	* [luapower_db]
