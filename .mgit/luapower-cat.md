@@ -25,6 +25,7 @@ tagline: package categories
 	* [socketloop]
 	* [thread]
 	* [pthread]
+	* [proc]
 	* [time]
 	* [rs232]
 	* [hidapi]
