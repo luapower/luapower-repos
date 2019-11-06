@@ -91,7 +91,7 @@ tagline: package categories
 	* [linkedlist]
 	* [lrucache]
 	* [lfrb]
-* Support APIs
+* Lua Support Libs
 	* [amoeba]
 	* [eq]
 	* [opengl]
@@ -101,7 +101,8 @@ tagline: package categories
 	* [unixperms]
 	* [lexer]
 	* [dynasm]
-* Support Libs
+	* [rangelist]
+* C Support Libs
 	* [libstdcxx]
 	* [pixman]
 	* [libmariadb]
@@ -114,6 +115,7 @@ tagline: package categories
 	* [harfbuzz]
 	* [fribidi]
 	* [libunibreak]
+	* [pcre]
 * Development Tools
 	* [inspect]
 	* [cplayer]
@@ -138,6 +140,8 @@ tagline: package categories
 	* [terra-cairo]
 	* [terra-box2d]
 	* [terra-boxblur]
+	* [mingw64-headers]
+	* [clang-resource-dir]
 * Package Management
 	* [luapower]
 	* [luapower_db]
