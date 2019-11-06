@@ -5,6 +5,7 @@ tagline: package categories
 * Runtimes
 	* [luajit]
 	* [terra]
+	* [nginx]
 * Deployment
 	* [bundle]
 * Standard Libraries
@@ -26,15 +27,11 @@ tagline: package categories
 	* [pthread]
 	* [time]
 	* [rs232]
+	* [hidapi]
 * Portable UI
-   * [ui]
-	* [codedit]
-* Portable Text Rendering
-	* [tr]
-   * [freetype]
-	* [harfbuzz]
-	* [fribidi]
-	* [libunibreak]
+	* [ui]
+	* [terra-layer]
+	* [terra-tr]
 * Portable 2D Graphics
 	* [cairo]
 	* [bitmap]
@@ -62,7 +59,7 @@ tagline: package categories
 	* [ucdn]
 * Hashing
 	* [xxhash]
-   * [blake2]
+	* [blake2]
 	* [sha2]
 	* [md5]
 	* [hmac]
@@ -82,7 +79,7 @@ tagline: package categories
 * Databases
 	* [mysql]
 * Templating
-   * [mustache]
+	* [mustache]
 * Motion
 	* [tweening]
 	* [easing]
@@ -107,28 +104,33 @@ tagline: package categories
 	* [libstdcxx]
 	* [pixman]
 	* [libmariadb]
-	* [libmysql]
 	* [openssl]
-   * [libogg]
+	* [libogg]
 	* [lua-headers]
 	* [shm]
+	* [llvm]
+	* [freetype]
+	* [harfbuzz]
+	* [fribidi]
+	* [libunibreak]
 * Development Tools
 	* [inspect]
 	* [cplayer]
 	* [gfonts]
 	* [hash_benchmark]
-   * [unit]
+	* [unit]
 * Package Management
 	* [luapower]
 	* [luapower_db]
 	* [luapower-repos]
 	* [luapower-ci]
-* Unsupported
+* Unmaintained
+	* [tr]
+	* [codedit]
 	* [bnet]
 	* [lfs]
 	* [lanes]
 	* [ffi_reflect]
 	* [struct]
 	* [minizip]
-	* [llvm]
 	* [tuple]
