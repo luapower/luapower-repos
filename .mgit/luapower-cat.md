@@ -8,6 +8,7 @@ tagline: package categories
 	* [nginx]
 * Deployment
 	* [bundle]
+	* [terra.binder]
 * Standard Libraries
 	* [glue]
 	* [pp]
