@@ -20,8 +20,8 @@ platform="$2"
 	exit 1
 }
 
-[ "$platform" ] || platform="$(./luapower platform)" || exit 1
-packages="$(./luapower build-order $packages $platform)"
+[ "$platform" ] || platform="$(./lp platform)" || exit 1
+packages="$(./lp build-order $packages $platform)"
 
 echo "Will build: ${packages//$'\n'/, }."
 echo "Press any key to continue, Ctrl+C to quit."
