@@ -10,7 +10,7 @@ platform="$2"
 	exit 1
 }
 
-[ -f "luapower" ] || {
+[ -f "lp" ] || {
 	echo
 	echo "ERROR: luapower package is needed to get the build order."
 	echo "To get it, run:"
