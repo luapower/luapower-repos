@@ -79,8 +79,8 @@ tagline: package categories
 	* [expat]
 	* [genx]
 	* [libb64]
-	* [csv]
 	* [xlswriter]
+	* [csv]
 * Templating
 	* [mustache]
 * Motion
