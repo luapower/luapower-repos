@@ -68,6 +68,8 @@ tagline: package categories
 	* [libtls]
 	* [libtls_bearssl]
 	* [libtls_libressl]
+	* [bearssl]
+	* [libressl]
 	* [resolver]
 	* [http]
 	* [uri]
