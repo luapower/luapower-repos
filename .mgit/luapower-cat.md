@@ -100,6 +100,7 @@ tagline: package categories
 	* [unixperms]
 	* [dynasm]
 	* [rangelist]
+	* [uuid]
 * C Support Libs
 	* [pixman]
 	* [libmariadb]
