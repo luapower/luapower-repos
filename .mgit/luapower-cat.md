@@ -5,6 +5,7 @@ tagline: package categories
 * Runtimes
 	* [luajit]
 	* [terra]
+	* [terra2]
 * Deployment
 	* [bundle]
 	* [terra.binder]
@@ -111,6 +112,7 @@ tagline: package categories
 	* [fribidi]
 	* [libunibreak]
 	* [pcre]
+	* [lx]
 * Development Tools
 	* [inspect]
 	* [cplayer]
@@ -146,8 +148,6 @@ tagline: package categories
 	* [luapower_db]
 	* [luapower-repos]
 	* [luapower-ci]
-* Work-in-progress
-	* [lx], [terra2]
 * Help needed
 	* [libsoundio]
 	* [videoinput]
