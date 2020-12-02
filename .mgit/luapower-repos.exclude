@@ -5,13 +5,6 @@
 !/.mgit/*.baseurl
 !/.mgit/*.release
 !/.mgit/luapower-repos.help
-!/.mgit/*.sh
-/.mgit/luapower-website*.sh
 !/.mgit/luapower-cat.md
 /.mgit/luapower-repos.origin
-/.mgit/bundle*.sh
-/.mgit/ci*.sh
 /.mgit/luapower-ci.*
-/.mgit/egr.*
-/.mgit/bf.*
-/.mgit/resty.sh
