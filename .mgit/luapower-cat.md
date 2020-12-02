@@ -5,7 +5,6 @@ tagline: package categories
 * Runtimes
 	* [luajit]
 	* [terra]
-	* [nginx]
 * Deployment
 	* [bundle]
 	* [terra.binder]
@@ -20,8 +19,6 @@ tagline: package categories
 * Portable OS APIs
 	* [fs]
 	* [nw]
-	* [socket]
-	* [socketloop]
 	* [thread]
 	* [pthread]
 	* [proc]
@@ -64,18 +61,25 @@ tagline: package categories
 	* [hmac]
 * Compression
 	* [zlib]
-* Serialization
+	* [minizip2]
+* Networking
+	* [sock]
+	* [libtls]
+	* [libtls_bearssl]
+	* [libtls_libressl]
+	* [resolver]
+	* [http]
+	* [uri]
+	* [rsync]
+* Databases
+	* [mysql]
+* Data Exchange
 	* [cjson]
 	* [expat]
 	* [genx]
 	* [libb64]
-* Networking
-	* [luasec]
-	* [resolver]
-	* [libcurl]
-	* [rsync]
-* Databases
-	* [mysql]
+	* [csv]
+	* [xlswriter]
 * Templating
 	* [mustache]
 * Motion
@@ -114,8 +118,10 @@ tagline: package categories
 	* [hash_benchmark]
 	* [unit]
 	* [testui]
+	* [jsmin]
 * Web Development
 	* [webb]
+	* [x-widgets]
 * Terra Standard Libraries
    * [terra.low]
    * [terra.arrayview]
@@ -140,6 +146,8 @@ tagline: package categories
 	* [luapower_db]
 	* [luapower-repos]
 	* [luapower-ci]
+* Work-in-progress
+	* [lx], [terra2]
 * Help needed
 	* [libsoundio]
 	* [videoinput]
@@ -158,3 +166,13 @@ tagline: package categories
 	* [struct]
 	* [minizip]
 	* [lanes]
+	* [socket]
+	* [socketloop]
+	* [luasec]
+	* [libcurl]
+	* [nginx]
+   * [resty-core]
+   * [resty-lrucache]
+   * [resty.http]
+   * [resty.mail]
+   * [resty.string]
