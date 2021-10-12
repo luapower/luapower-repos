@@ -17,6 +17,7 @@ tagline: package categories
 	* [coro]
 	* [errors]
 	* [lpeg]
+	* [dollar]
 * Portable OS APIs
 	* [fs]
 	* [nw]
@@ -75,7 +76,8 @@ tagline: package categories
 	* [uri]
 	* [rsync]
 * Databases
-	* [mysql]
+	* [sqlpp]
+   * [mysql_client]
 * Data Exchange
 	* [cjson]
 	* [expat]
@@ -179,3 +181,4 @@ tagline: package categories
    * [resty.http]
    * [resty.mail]
    * [resty.string]
+	* [mysql]
