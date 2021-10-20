@@ -13,7 +13,10 @@ mgit ls-untracked \
 	| grep -v 'tmp/' \
 	| grep -v 'donut-studio/'	\
 	| grep -v 'scite\.lua' \
+	| grep -v '.*_conf\.lua' \
 	| grep -v '.*\.pem' \
 	| grep -v '.*\.crt' \
 	| grep -v '.*\.csr' \
+	| grep -v '.*\.log' \
+	| grep -v '.*\-next-id' \
 	| grep -v '.*\.key'
