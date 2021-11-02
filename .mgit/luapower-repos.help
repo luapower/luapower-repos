@@ -15,3 +15,4 @@
    precompile ...             precompile headers into Lua cdef files
    platform [-o|-a]           detect current platform, OS or architecture
    glue-usage                 report usage count for glue functions
+
