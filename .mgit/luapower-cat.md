@@ -78,6 +78,7 @@ tagline: package categories
 * Databases
 	* [sqlpp]
    * [mysql_client]
+	* [tarantool]
 * Data Exchange
 	* [cjson]
 	* [expat]
@@ -118,6 +119,7 @@ tagline: package categories
 	* [libunibreak]
 	* [pcre]
 	* [lx]
+	* [messagepack]
 * Development Tools
 	* [inspect]
 	* [cplayer]
