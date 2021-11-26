@@ -79,6 +79,7 @@ tagline: package categories
 	* [sqlpp]
    * [mysql_client]
 	* [tarantool]
+	* [schema]
 * Data Exchange
 	* [cjson]
 	* [expat]
