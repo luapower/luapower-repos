@@ -82,6 +82,7 @@ tagline: package categories
 	* [schema]
 * Data Exchange
 	* [cjson]
+	* [msgpack]
 	* [expat]
 	* [genx]
 	* [libb64]
@@ -122,7 +123,6 @@ tagline: package categories
 	* [libunibreak]
 	* [pcre]
 	* [lx]
-	* [msgpack]
 * Development Tools
 	* [inspect]
 	* [cplayer]
