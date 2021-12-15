@@ -120,7 +120,7 @@ tagline: package categories
 	* [libunibreak]
 	* [pcre]
 	* [lx]
-	* [messagepack]
+	* [msgpack]
 * Development Tools
 	* [inspect]
 	* [cplayer]
