@@ -5,7 +5,7 @@ tagline: package categories
 * Runtimes
 	* [luajit]
 	* [terra]
-	* [terra2]
+	* [terra2] (WIP)
 * Deployment
 	* [bundle]
 	* [terra.binder]
@@ -27,9 +27,9 @@ tagline: package categories
 	* [time]
 	* [hidapi]
 * Portable UI (WIP)
-	* [ui]
-	* [terra.layer]
-	* [terra.tr]
+	* [ui] (WIP)
+	* [terra.layer] (WIP)
+	* [terra.tr] (WIP)
 * Portable 2D Graphics
 	* [cairo]
 	* [bitmap]
@@ -58,7 +58,8 @@ tagline: package categories
 * Hashing
 	* [xxhash]
 	* [blake2]
-	* [sha2]
+   * [sha1]
+   * [sha2]
 	* [md5]
 	* [hmac]
 * Compression
@@ -66,18 +67,17 @@ tagline: package categories
 	* [minizip2]
 * Networking
 	* [sock]
-	* [libtls]
-	* [libtls_bearssl]
-	* [libtls_libressl]
-	* [bearssl]
-	* [libressl]
 	* [resolver]
 	* [http]
 	* [uri]
 	* [rsync]
+* Networking / TLS (WIP)
+	* [libtls] (WIP)
+	* [libtls_bearssl] (WIP)
+	* [bearssl] (WIP)
 * Databases
 	* [sqlpp]
-   * [mysql_client]
+   * [mysql]
 	* [tarantool]
 	* [schema]
 * Data Exchange
@@ -96,9 +96,11 @@ tagline: package categories
 	* [hunspell]
 * Data Structures
 	* [heap]
-* Lua Support Libs
+* Math
 	* [amoeba]
 	* [eq]
+	* [ldecimal]
+* Lua Support Libs
 	* [opengl]
 	* [luastate]
 	* [cbframe]
@@ -184,4 +186,4 @@ tagline: package categories
    * [resty.http]
    * [resty.mail]
    * [resty.string]
-	* [mysql]
+	* [mysql_connector]
