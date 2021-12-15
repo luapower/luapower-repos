@@ -99,7 +99,7 @@ tagline: package categories
 * Math
 	* [amoeba]
 	* [eq]
-	* [ldecimal]
+	* [ldecnumber]
 * Lua Support Libs
 	* [opengl]
 	* [luastate]
