@@ -16,7 +16,7 @@ tagline: package categories
 	* [events]
 	* [coro]
 	* [errors]
-	* [lpeg]
+	* [lpeglabel]
 	* [dollar]
 * Portable OS APIs
 	* [fs]
@@ -187,3 +187,4 @@ tagline: package categories
    * [resty.mail]
    * [resty.string]
 	* [mysql_connector]
+	* [lpeg]
