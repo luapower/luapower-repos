@@ -123,6 +123,7 @@ tagline: package categories
 	* [libunibreak]
 	* [pcre]
 	* [lx]
+	* [ffi_reflect]
 * Development Tools
 	* [inspect]
 	* [cplayer]
@@ -172,7 +173,6 @@ tagline: package categories
 	* [linkedlist]
 	* [lrucache]
 	* [bnet]
-	* [ffi_reflect]
 	* [struct]
 	* [minizip]
 	* [lanes]
