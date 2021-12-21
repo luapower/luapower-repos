@@ -100,6 +100,8 @@ tagline: package categories
 * Data Structures
 	* [heap]
 	* [queue]
+	* [linkedlist]
+	* [lrucache]
 	* [connpool]
 * Math
 	* [amoeba]
@@ -174,8 +176,6 @@ tagline: package categories
 * Abandoned
 	* [ui0]
 	* [tr0]
-	* [linkedlist]
-	* [lrucache]
 	* [bnet]
 	* [struct]
 	* [minizip]
