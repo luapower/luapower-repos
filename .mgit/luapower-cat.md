@@ -5,7 +5,7 @@ tagline: package categories
 * Runtimes
 	* [luajit]
 	* [terra]
-	* [terra2] (WIP)
+	* [terra2]
 * Deployment
 	* [bundle]
 	* [terra.binder]
@@ -28,9 +28,9 @@ tagline: package categories
 	* [time]
 	* [hidapi]
 * Portable UI (WIP)
-	* [ui] (WIP)
-	* [terra.layer] (WIP)
-	* [terra.tr] (WIP)
+	* [ui]
+	* [terra.layer]
+	* [terra.tr]
 * Portable 2D Graphics
 	* [cairo]
 	* [bitmap]
@@ -74,9 +74,9 @@ tagline: package categories
 	* [uri]
 	* [rsync]
 * Networking / TLS (WIP)
-	* [libtls] (WIP)
-	* [libtls_bearssl] (WIP)
-	* [bearssl] (WIP)
+	* [libtls]
+	* [libtls_bearssl]
+	* [bearssl]
 * Databases
 	* [sqlpp]
    * [mysql]
