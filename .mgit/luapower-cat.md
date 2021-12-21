@@ -85,7 +85,6 @@ tagline: package categories
 	* [msgpack]
 	* [expat]
 	* [genx]
-	* [libb64]
 	* [csv]
 	* [xlsxwriter]
 * Templating
@@ -112,7 +111,6 @@ tagline: package categories
 	* [uuid]
 * C Support Libs
 	* [pixman]
-	* [libmariadb]
 	* [openssl]
 	* [lua-headers]
 	* [shm]
@@ -167,7 +165,7 @@ tagline: package categories
 	* [libsodium]
 	* [libogg]
 	* [rs232]
-* Unmaintained
+* Abandoned
 	* [ui0]
 	* [tr0]
 	* [linkedlist]
@@ -187,4 +185,7 @@ tagline: package categories
    * [resty.mail]
    * [resty.string]
 	* [mysql_connector]
+	* [libmysql]
+	* [libmariadb]
 	* [lpeg]
+	* [libb64]
