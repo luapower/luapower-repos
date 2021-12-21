@@ -6,6 +6,8 @@ tagline: package categories
 	* [luajit]
 	* [terra]
 	* [terra2]
+	* [luastate]
+	* [dynasm]
 * Deployment
 	* [bundle]
 	* [terra.binder]
@@ -26,7 +28,7 @@ tagline: package categories
 	* [pthread]
 	* [proc]
 	* [time]
-	* [hidapi]
+	* [path]
 * Portable UI (WIP)
 	* [ui]
 	* [terra.layer]
@@ -102,21 +104,15 @@ tagline: package categories
 	* [queue]
 	* [linkedlist]
 	* [lrucache]
-	* [connpool]
+	* [rangelist]
 * Math
 	* [amoeba]
 	* [eq]
 	* [ldecnumber]
-* Lua Support Libs
+* Support Libs
 	* [opengl]
-	* [luastate]
 	* [cbframe]
-	* [path]
 	* [unixperms]
-	* [dynasm]
-	* [rangelist]
-	* [uuid]
-* C Support Libs
 	* [pixman]
 	* [openssl]
 	* [lua-headers]
@@ -126,9 +122,9 @@ tagline: package categories
 	* [harfbuzz]
 	* [fribidi]
 	* [libunibreak]
-	* [pcre]
 	* [lx]
 	* [ffi_reflect]
+	* [jsmin]
 * Development Tools
 	* [inspect]
 	* [cplayer]
@@ -136,7 +132,6 @@ tagline: package categories
 	* [hash_benchmark]
 	* [unit]
 	* [testui]
-	* [jsmin]
 * Web Development
 	* [webb]
 	* [x-widgets]
@@ -173,6 +168,7 @@ tagline: package categories
 	* [libsodium]
 	* [libogg]
 	* [rs232]
+	* [hidapi]
 * Abandoned
 	* [ui0]
 	* [tr0]
@@ -195,3 +191,4 @@ tagline: package categories
 	* [libmariadb]
 	* [lpeg]
 	* [libb64]
+	* [pcre]
