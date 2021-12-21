@@ -18,6 +18,7 @@ tagline: package categories
 	* [errors]
 	* [lpeglabel]
 	* [dollar]
+	* [logging]
 * Portable OS APIs
 	* [fs]
 	* [nw]
@@ -67,6 +68,7 @@ tagline: package categories
 	* [minizip2]
 * Networking
 	* [sock]
+	* [connpool]
 	* [resolver]
 	* [http]
 	* [uri]
@@ -81,6 +83,7 @@ tagline: package categories
 	* [tarantool]
 	* [schema]
 * Data Exchange
+	* [base64]
 	* [cjson]
 	* [msgpack]
 	* [expat]
@@ -96,6 +99,8 @@ tagline: package categories
 	* [hunspell]
 * Data Structures
 	* [heap]
+	* [queue]
+	* [connpool]
 * Math
 	* [amoeba]
 	* [eq]
@@ -156,6 +161,7 @@ tagline: package categories
 	* [luapower]
 	* [luapower_db]
 	* [luapower-repos]
+	* [luapower-repos-abandoned]
 	* [luapower-ci]
 * Help needed
 	* [libsoundio]
