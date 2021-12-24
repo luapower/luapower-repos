@@ -169,6 +169,7 @@ tagline: package categories
 	* [libogg]
 	* [rs232]
 	* [hidapi]
+	* [libspng]
 * Abandoned
 	* [ui0]
 	* [tr0]
