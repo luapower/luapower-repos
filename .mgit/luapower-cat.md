@@ -125,6 +125,7 @@ tagline: package categories
 	* [lx]
 	* [ffi_reflect]
 	* [jsmin]
+	* [linebuffer]
 * Development Tools
 	* [inspect]
 	* [cplayer]
