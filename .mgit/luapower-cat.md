@@ -52,7 +52,7 @@ tagline: package categories
 * Image Formats
 	* [giflib]
 	* [libjpeg]
-	* [libpng]
+	* [libspng]
 	* [bmp]
 * Unicode
 	* [utf8]
@@ -170,7 +170,6 @@ tagline: package categories
 	* [libogg]
 	* [rs232]
 	* [hidapi]
-	* [libspng]
 * Abandoned
 	* [ui0]
 	* [tr0]
@@ -194,3 +193,4 @@ tagline: package categories
 	* [lpeg]
 	* [libb64]
 	* [pcre]
+	* [libpng]
