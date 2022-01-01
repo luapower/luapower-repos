@@ -113,7 +113,6 @@ tagline: package categories
 	* [cbframe]
 	* [unixperms]
 	* [pixman]
-	* [openssl]
 	* [lua-headers]
 	* [shm]
 	* [llvm]
@@ -193,3 +192,4 @@ tagline: package categories
 	* [libb64]
 	* [pcre]
 	* [libpng]
+	* [openssl]
