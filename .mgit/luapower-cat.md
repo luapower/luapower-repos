@@ -75,7 +75,6 @@ tagline: package categories
 	* [http]
 	* [uri]
 	* [rsync]
-* Networking / TLS (WIP)
 	* [libtls]
 	* [libtls_bearssl]
 	* [bearssl]
